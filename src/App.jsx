@@ -1,10 +1,13 @@
 import React from 'react'
+import Login from './components/Auth/Login'
 
 const App = () => {
   return (
-    <div className='text-red-500 text-5xl font-bold '>
-      APP
-    </div>
+
+    //fragments--<></>
+    <>
+<Login />
+    </>
   )
 }
 
