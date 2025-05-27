@@ -4,7 +4,7 @@ import CreateTask from '../others/CreateTask'
 
 const AdminDashBoard = () => {
   return (
-    <div className='p-10 h-screen w-full'>
+    <div className='p-5 h-screen w-full'>
       <Header/>
       <CreateTask />
     </div>
