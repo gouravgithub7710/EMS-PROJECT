@@ -34,7 +34,7 @@ const TaskList = () => {
       </div>
 
 
-       <div className=' h-full p-5 flex-shrink-0 w-[300px] bg-yellow-400 rounded-xl'>
+       <div className=' h-full p-5 flex-shrink-0 w-[300px] bg-fuchsia-700 rounded-xl'>
       <div className='flex justify-between items-center '>
       <h3 className='bg-red-600 px-3 py-1 text-sm rounded'>High</h3>
       <h4 className='text-sm'>20 May 2025</h4>
