@@ -10,8 +10,8 @@ const FailedTask = () => {
       <h2 className='mt-5 text-2xl font-semibold'>Host on GitHub Pages</h2>
       <p className='text-sm mt-5'>Upload your static website to GitHub and make it live using GitHub Pages in minutes.</p>
       
-    <div className='mt-2 '>
-        <button className='w-full'>Complete</button>
+    <div className='mt-4 '>
+        <button className='w-full bg-red-500 rounded py-1 items-center'>Failed</button>
       </div>
       
     </div>
