@@ -1,6 +1,7 @@
 import React from 'react'
 import AcceptTask from './AcceptTask'
 import NewTask from './NewTask'
+import FailedTask from './FailedTask'
 
 const TaskList = ({data}) => {
   return (
@@ -37,7 +38,7 @@ const TaskList = ({data}) => {
       <p className='text-sm mt-5'>Fetch and display real-time data from a public API using JavaScript and display it on your page.</p>
       </div> */}
 
-
+<FailedTask />
        {/* <div className=' h-full p-5 flex-shrink-0 w-[300px] bg-fuchsia-700 rounded-xl'>
       <div className='flex justify-between items-center '>
       <h3 className='bg-red-600 px-3 py-1 text-sm rounded'>High</h3>
