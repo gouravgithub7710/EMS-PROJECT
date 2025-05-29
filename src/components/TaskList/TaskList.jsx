@@ -5,9 +5,34 @@ import CompleteTask from './CompleteTask'
 import FailedTask from './FailedTask'
 
 const TaskList = ({data}) => {
+  console.log(data);
+  
   return (
     <div id='tasklist' className='h-[55%] overflow-x-auto flex items-center justify-start gap-5 w-full py-5 flex-nowrap mt-10'>
-   <AcceptTask />
+
+
+
+{data.tasks.map((e)=>{
+
+  if(e.newTask){
+    return <NewTask/>
+  } 
+  if(e.active){
+    return <AcceptTask/>
+  }
+  
+  if(e.completed){
+    return <CompleteTask/>
+  }
+if (e.failed){
+    return <FailedTask/>
+  }
+  
+})}
+
+    
+
+   {/* <AcceptTask /> */}
 
       {/* <div className=' h-full p-5 flex-shrink-0 w-[300px] bg-red-400 rounded-xl'>
       <div className='flex justify-between items-center '>
@@ -18,7 +43,7 @@ const TaskList = ({data}) => {
       <p className='text-sm mt-5'>Deploy a web project online using platforms like Vercel, Netlify, or GitHub Pages easily.</p>
       </div> */}
 
-<NewTask />
+{/* <NewTask /> */}
 
  {/* <div className=' h-full p-5 flex-shrink-0 w-[300px] bg-blue-400 rounded-xl'>
       <div className='flex justify-between items-center '>
@@ -29,7 +54,7 @@ const TaskList = ({data}) => {
       <p className='text-sm mt-5'>Design a personal portfolio showcasing your skills, projects, and contact info using modern frontend tools.</p>
       </div> */}
 
-<CompleteTask />
+{/* <CompleteTask /> */}
        {/* <div className=' h-full p-5 flex-shrink-0 w-[300px] bg-green-400 rounded-xl'>
       <div className='flex justify-between items-center '>
       <h3 className='bg-red-600 px-3 py-1 text-sm rounded'>High</h3>
@@ -39,7 +64,7 @@ const TaskList = ({data}) => {
       <p className='text-sm mt-5'>Fetch and display real-time data from a public API using JavaScript and display it on your page.</p>
       </div> */}
 
-<FailedTask />
+{/* <FailedTask /> */}
        {/* <div className=' h-full p-5 flex-shrink-0 w-[300px] bg-fuchsia-700 rounded-xl'>
       <div className='flex justify-between items-center '>
       <h3 className='bg-red-600 px-3 py-1 text-sm rounded'>High</h3>
