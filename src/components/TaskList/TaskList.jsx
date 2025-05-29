@@ -1,9 +1,10 @@
 import React from 'react'
+import AcceptTask from './AcceptTask'
 
 const TaskList = ({data}) => {
   return (
     <div id='tasklist' className='h-[55%] overflow-x-auto flex items-center justify-start gap-5 w-full py-5 flex-nowrap mt-10'>
-
+   <AcceptTask />
 
       <div className=' h-full p-5 flex-shrink-0 w-[300px] bg-red-400 rounded-xl'>
       <div className='flex justify-between items-center '>
