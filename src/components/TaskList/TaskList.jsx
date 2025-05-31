@@ -5,7 +5,6 @@ import CompleteTask from './CompleteTask'
 import FailedTask from './FailedTask'
 
 const TaskList = ({data}) => {
-  console.log(data);
   
   return (
     <div id='tasklist' className='h-[55%] overflow-x-auto flex items-center justify-start gap-5 w-full py-5 flex-nowrap mt-10'>
@@ -15,17 +14,17 @@ const TaskList = ({data}) => {
 {data.tasks.map((e,idx)=>{
 
   if(e.newTask){
-    return <NewTask key={idx}/>
+    return <NewTask key={idx} data={data}/>
   } 
   if(e.active){
-    return <AcceptTask key={idx}/>
+    return <AcceptTask key={idx} data={data}/>
   }
   
   if(e.completed){
-    return <CompleteTask key={idx}/>
+    return <CompleteTask key={idx} data={data}/>
   }
 if (e.failed){
-    return <FailedTask key={idx}/>
+    return <FailedTask key={idx} data={data}/>
   }
   
 })}
