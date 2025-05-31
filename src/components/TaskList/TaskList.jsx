@@ -22,7 +22,7 @@ const TaskList = ({data}) => {
   }
   
   if(e.completed){
-    return <CompleteTask/>
+    return </>
   }
 if (e.failed){
     return <FailedTask/>
