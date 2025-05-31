@@ -16,12 +16,10 @@ useEffect(() => {
  const loggedInUser= localStorage.getItem('loggedInUser')
 if(loggedInUser){
  const userData = JSON.parse(loggedInUser)
- console.log(userData);
- 
- 
+setUser(userData.role)
+   setLoggedInUserData(userData.data)
   }
- 
-})
+},[])
 
 
 
@@ -37,7 +35,7 @@ if(email=='admin@me.com' && password=='123'){
 if(employee){
           setUser('employee')
           setLoggedInUserData(employee)
-          localStorage.setItem('loggedInUser',JSON.stringify({role:'employee'}))
+          localStorage.setItem('loggedInUser',JSON.stringify({role:'employee',data:employee}))
 }
      }else{
           alert('Invalid Credentials')
