@@ -12,13 +12,11 @@ const [user, setUser] = useState(null)
 const [loggedInUserData, setLoggedInUserData] = useState(null)
 const authData = useContext(AuthContext)
 
-// useEffect(() => {
-// if(authData){
-// const loggedInUSer = localStorage.getItem("loggedInUser")
-// if(loggedInUSer)
-// {setUser(loggedInUSer.role)}
-// }
-// }, [authData])
+useEffect(() => {
+ const loggedInUser= localStorage.getItem('loggedInUser')
+ console.log('loggedInUser', loggedInUser);
+ 
+})
 
 
 
