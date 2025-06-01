@@ -46,7 +46,7 @@ if(employee){
   return (
     <>
     {!user? <Login handleLogin={handleLogin} />: ''}
-      {user == 'admin' ? <AdminDashBoard/> : (user == 'employee' ? <EmployeeDashBoard  data={loggedInUserData}/> : null) }
+      {user == 'admin' ? <AdminDashBoard changeUser={setUser}/> : (user == 'employee' ? <EmployeeDashBoard changeUser={setUser} data={loggedInUserData}/> : null) }
    
     </>
   )
