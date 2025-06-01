@@ -8,14 +8,27 @@ const CreateTask = () => {
   const [assignTo, setAssignTo] = useState('')
   const [category, setCategory] = useState('')
 
+  const [newTask, setNewTask] = useState({})
+
   const sumbitHandler = (e) => {
     e.preventDefault()
+    
+    setNewTask({taskTitle, taskDescription, taskDate, category,active:false,newTask:true,failed:false,completed:false})
 
-    setTaskTitle('')
-    setTaskDescription('') 
+   const data = JSON.parse(localStorage.getItem('employees'))
+  
+   data.forEach((e)=>{
+    if(assignTo==e.firstName){
+      e.tasks.push(newTask)
+      console.log('e.tasks', e.tasks);
+    }
+   })
+   setTaskTitle('')
+    setTaskDescription('')
     setTaskDate('')
     setAssignTo('')
     setCategory('')
+    
     
   }
   return (
