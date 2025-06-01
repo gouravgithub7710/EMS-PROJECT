@@ -1,9 +1,18 @@
 import React from 'react'
 
 const CreateTask = () => {
+
+  const sumbitHandler = (e) => {
+    e.preventDefault()
+
+    console.log("task created");
+    
+  }
   return (
     <div className='p-5 bg-[#1c1c1c]  rounded mt-5' >
-        <form className='flex flex-wrap items-start justify-between'>
+        <form onSubmit={(e)=>{
+          sumbitHandler(e)
+        }} className='flex flex-wrap items-start justify-between'>
         <div className='w-1/2'>
         <div>
             <h3 className='text-sm text-gray-300 mb-0.5'>Task Title</h3>
