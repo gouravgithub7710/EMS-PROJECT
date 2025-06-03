@@ -48,6 +48,20 @@ setPassword('');
       </button>
     </form>
   </div>
+
+  <div className="absolute bottom-5 text-gray-400 text-sm">
+  <div  className="flex flex-col items-center space-y-2">
+    <h1>Admin:</h1>
+Email: admin@me.com
+Password: 123
+  </div>
+    <div className="flex flex-col items-center space-y-2 mt-5">
+    <h1  >Employee: </h1>
+ 
+Email: e@e.com
+Password: 123
+    </div>
+ </div>
 </div>
 
   )
