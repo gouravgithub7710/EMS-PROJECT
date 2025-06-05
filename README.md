@@ -1,4 +1,4 @@
-# EMS - Employee Management System
+# EMS - Employee Management System.
 
 A simple web-based Employee Management System (EMS) to manage employee records efficiently.
 
@@ -9,9 +9,9 @@ A simple web-based Employee Management System (EMS) to manage employee records e
 
 
 ## 🚀 Features
-- Add, view, update employee details
-- Responsive UI for better user experience
-- Built with React.js and styled using modern CSS
+- Add, view, update employee details.
+- Responsive UI for better user experience.
+- Built with React.js and styled using modern CSS.
 
 ## 🛠 Tech Stack
 - React.js
