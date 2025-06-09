@@ -24,3 +24,88 @@ git clone https://github.com/your-username/ems-project.git
 cd ems-project
 npm install
 npm start
+
+```
+EMS-PROJECT
+├─ components - Shortcut.lnk
+├─ eslint.config.js
+├─ index.html
+├─ package-lock.json
+├─ package.json
+├─ public
+│  └─ vite.svg
+├─ README.md
+├─ src
+│  ├─ App.css
+│  ├─ App.jsx
+│  ├─ assets
+│  │  └─ react.svg
+│  ├─ components
+│  │  ├─ Auth
+│  │  │  └─ Login.jsx
+│  │  ├─ DashBoard
+│  │  │  ├─ AdminDashBoard.jsx
+│  │  │  └─ EmployeeDashBoard.jsx
+│  │  ├─ others
+│  │  │  ├─ AllTask.jsx
+│  │  │  ├─ CreateTask.jsx
+│  │  │  ├─ Header.jsx
+│  │  │  └─ TaskListNumber.jsx
+│  │  └─ TaskList
+│  │     ├─ AcceptTask.jsx
+│  │     ├─ CompleteTask.jsx
+│  │     ├─ FailedTask.jsx
+│  │     ├─ NewTask.jsx
+│  │     └─ TaskList.jsx
+│  ├─ context
+│  │  └─ AuthProvider.jsx
+│  ├─ index.css
+│  ├─ main.jsx
+│  ├─ pages
+│  └─ utils
+│     └─ localStorage.jsx
+└─ vite.config.js
+
+```
+```
+EMS-PROJECT
+├─ components - Shortcut.lnk
+├─ eslint.config.js
+├─ index.html
+├─ package-lock.json
+├─ package.json
+├─ public
+│  └─ vite.svg
+├─ README.md
+├─ src
+│  ├─ App.css
+│  ├─ App.jsx
+│  ├─ assets
+│  │  └─ react.svg
+│  ├─ components
+│  │  ├─ Auth
+│  │  │  └─ Login.jsx
+│  │  ├─ DashBoard
+│  │  │  ├─ AdminDashBoard.jsx
+│  │  │  └─ EmployeeDashBoard.jsx
+│  │  ├─ others
+│  │  │  ├─ AllTask.jsx
+│  │  │  ├─ CreateTask.jsx
+│  │  │  ├─ Header.jsx
+│  │  │  └─ TaskListNumber.jsx
+│  │  └─ TaskList
+│  │     ├─ AcceptTask.jsx
+│  │     ├─ CompleteTask.jsx
+│  │     ├─ FailedTask.jsx
+│  │     ├─ NewTask.jsx
+│  │     └─ TaskList.jsx
+│  ├─ context
+│  │  └─ AuthProvider.jsx
+│  ├─ index.css
+│  ├─ main.jsx
+│  ├─ pages
+│  └─ utils
+│     └─ localStorage.jsx
+└─ vite.config.js
+
+```
