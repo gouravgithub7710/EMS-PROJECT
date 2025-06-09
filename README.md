@@ -18,13 +18,6 @@ A simple web-based Employee Management System (EMS) to manage employee records e
 - CSS / Tailwind (if used)
 - Vercel (for deployment)
 
-## 📦 How to Run Locally
-```bash
-git clone https://github.com/your-username/ems-project.git
-cd ems-project
-npm install
-npm start
-
 ```
 EMS-PROJECT
 ├─ components - Shortcut.lnk
@@ -67,3 +60,10 @@ EMS-PROJECT
 └─ vite.config.js
 
 ```
+
+## 📦 How to Run Locally
+```bash
+git clone https://github.com/your-username/ems-project.git
+cd ems-project
+npm install
+npm start
