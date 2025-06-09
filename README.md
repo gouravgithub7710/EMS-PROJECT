@@ -18,46 +18,47 @@ A simple web-based Employee Management System (EMS) to manage employee records e
 - CSS / Tailwind (if used)
 - Vercel (for deployment)
 
+## 🚀 Folder Structure
 ```
 EMS-PROJECT
-├─ components - Shortcut.lnk
-├─ eslint.config.js
-├─ index.html
-├─ package-lock.json
-├─ package.json
-├─ public
-│  └─ vite.svg
-├─ README.md
-├─ src
-│  ├─ App.css
-│  ├─ App.jsx
-│  ├─ assets
-│  │  └─ react.svg
-│  ├─ components
-│  │  ├─ Auth
-│  │  │  └─ Login.jsx
-│  │  ├─ DashBoard
-│  │  │  ├─ AdminDashBoard.jsx
-│  │  │  └─ EmployeeDashBoard.jsx
-│  │  ├─ others
-│  │  │  ├─ AllTask.jsx
-│  │  │  ├─ CreateTask.jsx
-│  │  │  ├─ Header.jsx
-│  │  │  └─ TaskListNumber.jsx
-│  │  └─ TaskList
-│  │     ├─ AcceptTask.jsx
-│  │     ├─ CompleteTask.jsx
-│  │     ├─ FailedTask.jsx
-│  │     ├─ NewTask.jsx
-│  │     └─ TaskList.jsx
-│  ├─ context
-│  │  └─ AuthProvider.jsx
-│  ├─ index.css
-│  ├─ main.jsx
-│  ├─ pages
-│  └─ utils
-│     └─ localStorage.jsx
-└─ vite.config.js
+├─ components - Shortcut.lnk         # Shortcut to components folder (Windows link file)
+├─ eslint.config.js                 # ESLint configuration file for linting rules
+├─ index.html                       # Main HTML file for the project
+├─ package-lock.json                # Auto-generated lock file for npm dependencies
+├─ package.json                     # Project metadata and dependencies list
+├─ public                           # Public assets folder (static files)
+│  └─ vite.svg                      # Vite logo or image used in the app
+├─ README.md                        # Project documentation file
+├─ src                              # Source code folder (React components and logic)
+│  ├─ App.css                       # Global CSS styles for the app
+│  ├─ App.jsx                       # Root React component
+│  ├─ assets                        # Static assets like images
+│  │  └─ react.svg                  # React logo image
+│  ├─ components                    # Reusable React components
+│  │  ├─ Auth                       # Authentication related components
+│  │  │  └─ Login.jsx               # Login component
+│  │  ├─ DashBoard                  # Dashboard components
+│  │  │  ├─ AdminDashBoard.jsx      # Admin dashboard UI
+│  │  │  └─ EmployeeDashBoard.jsx   # Employee dashboard UI
+│  │  ├─ others                     # Other UI components
+│  │  │  ├─ AllTask.jsx             # Component to show all tasks
+│  │  │  ├─ CreateTask.jsx          # Component to create new task
+│  │  │  ├─ Header.jsx              # Header UI component
+│  │  │  └─ TaskListNumber.jsx      # Task list numbering component
+│  │  └─ TaskList                   # Components related to task lists
+│  │     ├─ AcceptTask.jsx          # Component for accepting a task
+│  │     ├─ CompleteTask.jsx        # Component for completed tasks
+│  │     ├─ FailedTask.jsx          # Component for failed tasks
+│  │     ├─ NewTask.jsx             # Component for new tasks
+│  │     └─ TaskList.jsx            # Main task list component
+│  ├─ context                       # React context for global state
+│  │  └─ AuthProvider.jsx           # Auth context provider component
+│  ├─ index.css                     # Global CSS styles
+│  ├─ main.jsx                      # Main React entry point
+│  ├─ pages                         # Route-based page components (e.g., Home, About)
+│  └─ utils                         # Utility/helper functions
+│     └─ localStorage.jsx           # Helper for localStorage operations
+└─ vite.config.js                   # Vite bundler configuration file
 
 ```
 
