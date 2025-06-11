@@ -18,7 +18,7 @@ A simple web-based Employee Management System (EMS) to manage employee records e
 - CSS / Tailwind (if used)
 - Vercel (for deployment)
 
-## 🚀 Folder Structure
+## 🚀 Folder Structure.
 ```
 EMS-PROJECT
 ├─ components - Shortcut.lnk         # Shortcut to components folder (Windows link file)
@@ -62,7 +62,7 @@ EMS-PROJECT
 
 ```
 
-## 📦 How to Run Locally
+## 📦 How to Run Locally.
 ```bash
 git clone https://github.com/your-username/ems-project.git
 cd ems-project
